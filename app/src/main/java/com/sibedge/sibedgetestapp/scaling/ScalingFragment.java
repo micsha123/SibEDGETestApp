@@ -91,7 +91,6 @@ public class ScalingFragment extends Fragment {
     }
 
     public String getPath(Uri uri) {
-        // just some safety built in
         if( uri == null ) {
             // TODO perform some logging or show user feedback
             return null;

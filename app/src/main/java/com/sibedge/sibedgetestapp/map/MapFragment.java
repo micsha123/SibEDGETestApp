@@ -55,15 +55,12 @@ public class MapFragment extends Fragment {
 
         mGoogleMap = mMapView.getMap();
 
-        // create marker
         MarkerOptions mMarker = new MarkerOptions().position(
                 new LatLng(latitude, longitude)).title("You're here!");
 
-        // Changing marker icon
         mMarker.icon(BitmapDescriptorFactory
                 .defaultMarker(BitmapDescriptorFactory.HUE_ROSE));
 
-        // adding marker
         mGoogleMap.addMarker(mMarker);
         CameraPosition cameraPosition = new CameraPosition.Builder()
                 .target(new LatLng(latitude, longitude)).zoom(12).build();
