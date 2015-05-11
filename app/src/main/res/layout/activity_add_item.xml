@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp">
+
+    <TextView android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_marginTop="13dp"
+              android:text="@string/edit_list"
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText android:id="@+id/name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:ems="10"
+              android:inputType="text"
+              android:paddingLeft="20dp"
+              android:layout_alignBottom="@+id/textView3"
+              android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox"
+        android:layout_alignBottom="@+id/name"
+        android:layout_alignRight="@+id/save"
+        android:layout_alignEnd="@+id/save"/>
+
+    <Button android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/name"
+            android:layout_marginRight="21dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/action_add" />
+
+    <Button android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/save"
+            android:layout_alignBottom="@+id/save"
+            android:layout_toLeftOf="@+id/save"
+            android:text="@string/revert" />
+
+</RelativeLayout>

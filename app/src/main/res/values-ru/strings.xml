@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_add">Добавить</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_zoom_in">Приблизить</string>
+    <string name="action_zoom_out">Отдалить</string>
+    <string name="choose_language">Выберите язык:</string>
+    <string name="delete">Удалить</string>
+    <string name="done">Готово</string>
+    <string name="edit_full">Редактировать имя элемента:</string>
+    <string name="edit_list">Редактировать</string>
+    <string name="empty">Пусто</string>
+    <string name="english">Английский</string>
+    <string name="enter_label">Вставьте слово</string>
+    <string name="make_choice">Сделайте свой выбор</string>
+    <string name="revert">Отмена</string>
+    <string name="russian">Русский</string>
+    <string name="save_item">Хотите сохранить элемент?</string>
+</resources>

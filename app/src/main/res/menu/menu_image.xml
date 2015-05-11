@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.project.malina.spaceotestapp.Scaling.ImageActivity">
+    <item android:id="@+id/action_zoom_in"
+          android:title="@string/action_zoom_in"
+          android:icon="@android:drawable/ic_menu_add"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_zoom_out"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"
+          android:title="@string/action_zoom_out"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SibEDGETestApp</string>
+
+    <string name="title_section1" translatable="false">List</string>
+    <string name="title_section2" translatable="false">Scaling</string>
+    <string name="title_section3" translatable="false">Service</string>
+    <string name="title_section4" translatable="false">Map</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add</string>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+    <string name="enter_label">Enter word</string>
+    <string name="title_activity_image" translatable="false">ImageActivity</string>
+    <string name="action_zoom_in">Zoom In</string>
+    <string name="action_zoom_out">Zoom Out</string>
+    <string name="empty">Empty</string>
+    <string name="done">Done</string>
+    <string name="revert">Revert</string>
+    <string name="edit_list">Edit</string>
+    <string name="edit_full">Edit you title name:</string>
+    <string name="delete">Delete</string>
+    <string name="make_choice">Make your choice</string>
+    <string name="choose_language">Choose language</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="save_item">Wanna save item?</string>
+    <array name="language_array">
+        <item>@string/english</item>
+        <item>@string/russian</item>
+    </array>
+
+</resources>
